@@ -13,6 +13,30 @@ Switch Windows: If a new browser window is opened, the script switches to that w
 Close New Window and Return to Main Window: After completing the necessary steps, the new window is closed, and the script returns to the main window.
 Back Button: The script clicks the "Back" button to return to the main page.
 
+
+
+
+
+gmail Detailed Steps of Login Flow (per account):
+Open Login Page: The browser navigates to the login URL: https://app.instantly.ai/auth/login.
+Enter Email: The email is entered into the email input field. If any error messages are displayed after entering the email, they are printed.
+Enter Password: The password is entered into the password field.
+Click "Log In": The login button is clicked.
+Handle Errors: If any error message is displayed (e.g., "Invalid credentials"), the script will print it.
+Click "Add New" Button: Once logged in, the script waits for the "Add new" button to appear and clicks it.
+Click "gmail / G-suite": The script waits for the "gmail / G-suite" button to become clickable and clicks it.
+Click "Yes, SMTP has been enabled": The script clicks the "Yes, SMTP has been enabled" button to proceed.
+Handle "login" Button: If the "login" button appears, the script clicks it.
+enter email from csv file 
+enter password from csv file 
+click continue (yeha issue kar raha hi)
+click allow
+Switch Windows: If a new browser window is opened, the script switches to that window and handles any necessary steps.
+Close New Window and Return to Main Window: After completing the necessary steps, the new window is closed, and the script returns to the main window.
+Back Button: The script clicks the "Back" button to return to the main page.
+
+
+
 proxy and accounts
 Read account details: The script reads emails and passwords from a CSV file.
 Create email-password pairs: The emails and passwords are combined into pairs.
